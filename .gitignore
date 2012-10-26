@@ -8,6 +8,7 @@ lib-cov
 *.gz
 
 test.js
+file.txt
 
 pids
 logs
