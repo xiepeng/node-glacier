@@ -5,8 +5,9 @@ A node.js module for [Amazon Glacier](http://aws.amazon.com/glacier/ "go to the 
 
 ## Installation
 
-    npm install node-glacier
-
+```shell
+npm install node-glacier
+```
 
 Under development...
 
