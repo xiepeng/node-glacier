@@ -20,7 +20,10 @@
         "AWS",
         "node"
     ],
-    "dependencies": {"treehash":">=0.0.2"},
+    "dependencies": {
+        "knox"      : "0.4.0",
+        "treehash"  : "0.0.2"
+    },
     "license": "MIT",
     "engines": {
         "node": ">=0.6"
