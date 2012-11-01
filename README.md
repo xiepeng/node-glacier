@@ -20,4 +20,7 @@ var glacierClient = new glacier.Client({
 });
 ```
 
-
+## Create a vault
+```javascript
+glacierClient.createVault(vaultName, function (err, res) {});
+```
