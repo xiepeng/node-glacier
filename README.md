@@ -20,8 +20,12 @@ var glacierClient = new glacier.Client({
 });
 ```
 
-## Create and delete a vault
+## Create a vault
 ```javascript
-glacierClient.createVault(vaultName, function (err, res) {});
-glacierClient.deleteVault(vaultName, function (err, res) {});
+glacierClient.createVault(vaultName, function (err, res) { ... });
+```
+
+## Delete a vault
+```javascript
+glacierClient.deleteVault(vaultName, function (err, res) { ... });
 ```
