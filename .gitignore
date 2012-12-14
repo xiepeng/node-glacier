@@ -8,6 +8,8 @@ lib-cov
 *.gz
 
 test.js
+server.js
+inventory*.json
 file.txt
 
 pids
