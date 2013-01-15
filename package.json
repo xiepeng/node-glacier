@@ -1,7 +1,7 @@
 {
     "name"      : "node-glacier",
     "main"      : "./lib/node-glacier.js",
-    "version"   : "0.1.5",
+    "version"   : "0.1.6",
     "author"    : "Peng Xie <xiepeng.peng@gmail.com>",
     "description"   : "A nodejs module for accessing Amazon Glacier",
     "contributors"  : [ 
