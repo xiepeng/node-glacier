@@ -30,5 +30,27 @@ glacierClient.createVault(vaultName, function (err, res) { ... });
 glacierClient.deleteVault(vaultName, function (err, res) { ... });
 ```
 
+## Get a list of your vaults
+```javascript
+glacierClient.listVaults(function (err, res) { ... });
+```
 
+## Add a description to the vault
+```javascript
+glacierClient.describeVault(vaultName, function (err, res) { ... });
+```
 
+## Add a description to the vault
+```javascript
+glacierClient.describeVault(vaultName, function (err, res) { ... });
+```
+
+## Set the SNS vault notifations
+```javascript
+glacierClient.setVaultNotificationConfiguration = function (vaultName, topic, events, function(err, res)) { ... });
+```
+
+## Get SNS vault notifations
+```javascript
+glacierClient.getVaultNotifications = function (vaultName, callback) { ... });
+```
